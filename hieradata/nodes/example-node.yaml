@@ -1,1 +1,16 @@
 ---
+profiles::oracle_server::version:                                '11.2.0.1'
+profiles::oracle_server::file:                                   'linux.x64_11gR2_database'
+profiles::oracle_server::database_type:                          'EE'
+profiles::oracle_server::oracle_base:                            '/opt/OBIEE/oracle'
+profiles::oracle_server::oracle_home:                            '/opt/OBIEE/oracle/product/11.2/db'
+profiles::oracle_server::user:                                   'oracle'
+profiles::oracle_server::group:                                  'oinstall'
+profiles::oracle_server::group_install:                          'oinstall'
+profiles::oracle_server::group_oper:                             'oinstall'
+profiles::oracle_server::download_dir:                           '/opt/OBIEE/oracle/install'
+profiles::oracle_server::bash_profile:                           true
+profiles::oracle_server::remote_file:                            false
+profiles::oracle_server::puppet_download_mnt_point:              "/net/nfs-server/Archives/INFRASTRUCTURE/dba_softs/zip"
+profiles::oracle_server::logoutput:                              true
+profiles::oracle_server::oracle_rdbms_server_preinstall_package: 'oracle-rdbms-server-11gR2-preinstall'
