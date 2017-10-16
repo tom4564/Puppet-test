@@ -4,7 +4,7 @@ class role::database_server {
   #All roles should include the base profile
   include profile::base
    # Install Oracle Server
-    include profiles::oracle_server
+    include profile::oracle_server
 
 
 }

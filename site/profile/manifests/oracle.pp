@@ -1,4 +1,4 @@
-class profiles::oracle_server (
+class profile::oracle_server (
  $version,
  $zip_extract                             = false,
  $remote_file                             = false,
