@@ -2,7 +2,7 @@ class profile::oracle_server (
  $version                               = '11.2.0.4',
  $zip_extract                           = true,
  $remote_file                           = true,
- $database_type                         = 'XE'
+ $database_type                         = 'XE',
  $oracle_base                           = '/opt/oracle/Oracle11xe',
  $oracle_home                           = '/opt/oracle/Oracle11xe/product/11.2.0/dbhome_1',
  $user                                  = 'oracle',
