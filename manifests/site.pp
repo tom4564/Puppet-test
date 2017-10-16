@@ -30,3 +30,10 @@ node default {
   # Example:
   #   class { 'my_class': }
 }
+
+node tomas-HP-550.comtesys {
+  # This is where you can declare classes for all nodes.
+  # Example:
+  #   class { 'my_class': }
+  include role::database_server
+}
