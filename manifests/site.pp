@@ -31,7 +31,7 @@ node default {
   #   class { 'my_class': }
 }
 
-node tomas-HP-550.comtesys {
+node tomas-HP-550 {
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
