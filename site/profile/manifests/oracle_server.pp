@@ -1,5 +1,6 @@
 class profile::oracle_server (
  $version,
+ $file,
  $zip_extract                           = true,
  $remote_file                           = true,
  $database_type,
@@ -21,6 +22,7 @@ class profile::oracle_server (
 
   oradb::installdb{ "${version}_${::kernel}-${::architecture}":
     version                   => $version,
+    file                      => $file,
     zip_extract               => $zip_extract,
     remote_file               => $remote_file,
     database_type             => $database_type,

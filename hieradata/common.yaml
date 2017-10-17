@@ -2,7 +2,7 @@
 message: "This node is using common data"
 profile::oracle_server::version:                                '11.2.0.1'
 profile::oracle_server::file:                                   'oracle-xe-11.2.0-1.0.x86_64.rpm'
-profile::oracle_server::database_type:                          'XE'
+profile::oracle_server::database_type:                          'SE'
 profile::oracle_server::oracle_base:                            '/opt/OBIEE/oracle'
 profile::oracle_server::oracle_home:                            '/opt/OBIEE/oracle/product/11.2/db'
 profile::oracle_server::user:                                   'oracle'
