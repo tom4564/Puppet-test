@@ -5,6 +5,7 @@ forge "http://forge.puppetlabs.com"
 #mod "puppetlabs/inifile",     '1.5.0'
 #mod "puppetlabs/stdlib",      '4.11.0'
 #mod "puppetlabs/concat",      '2.1.0'
+mod 'puppetlabs-concat', '4.0.1'
 mod 'biemond-oradb', '3.0.11'
 
 # Modules from Git
