@@ -9,7 +9,7 @@ mod 'puppetlabs-concat', '4.0.1'
 mod 'puppetlabs-stdlib', '4.20.0'
 mod 'biemond-oradb', '3.0.11'
 
-mod 'tominst' 
+# mod 'tominst' 
 # pokus o muj custom module s prenosem instalacky
 
 # Modules from Git
