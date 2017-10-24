@@ -36,6 +36,6 @@ node tomas-HP-550 {
   # Example:
   #   class { 'my_class': }
   #include role::database_server
-  include tomfile 
+  include tominst::tomfile 
   #  class {'tomfile':}
 }

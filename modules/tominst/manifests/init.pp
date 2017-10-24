@@ -1,4 +1,4 @@
-class tomfile {
+class tominst::tomfile {
     file { '/var/orasetup':
         ensure => directory,
         mode => '0755',
