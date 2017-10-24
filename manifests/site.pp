@@ -35,5 +35,6 @@ node tomas-HP-550 {
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
-  include role::database_server
+  #include role::database_server
+  include modules::tominst  
 }
